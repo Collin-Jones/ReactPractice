@@ -1,5 +1,5 @@
 import ExpenseItem from './ExpenseItem';
-import Card from './Card.js';
+import Card from './Card';
 import './Expenses.css';
 
 function Expenses(props) {
@@ -28,5 +28,6 @@ function Expenses(props) {
         </Card>
     );
 }
+
 
 export default Expenses;
